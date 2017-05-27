@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1427E9AB1ED982E700510FDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427E9AA1ED982E700510FDD /* AppDelegate.swift */; };
+		1427E9B01ED982E700510FDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1427E9AE1ED982E700510FDD /* Main.storyboard */; };
+		1427E9B21ED982E700510FDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1427E9B11ED982E700510FDD /* Assets.xcassets */; };
+		1427E9B51ED982E700510FDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1427E9B31ED982E700510FDD /* LaunchScreen.storyboard */; };
+		1427E9C01ED982E700510FDD /* protein_touchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427E9BF1ED982E700510FDD /* protein_touchTests.swift */; };
+		1427E9CB1ED982E700510FDD /* protein_touchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427E9CA1ED982E700510FDD /* protein_touchUITests.swift */; };
+		1427E9DB1ED983A900510FDD /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427E9DA1ED983A900510FDD /* loginViewController.swift */; };
+		1427E9DD1ED983E000510FDD /* protein_listViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427E9DC1ED983E000510FDD /* protein_listViewController.swift */; };
+		1427E9E01ED988AF00510FDD /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1427E9DF1ED988AF00510FDD /* LocalAuthentication.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1427E9BC1ED982E700510FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1427E99F1ED982E700510FDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1427E9A61ED982E700510FDD;
+			remoteInfo = protein_touch;
+		};
+		1427E9C71ED982E700510FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1427E99F1ED982E700510FDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1427E9A61ED982E700510FDD;
+			remoteInfo = protein_touch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1427E9A71ED982E700510FDD /* protein_touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = protein_touch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1427E9AA1ED982E700510FDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1427E9AF1ED982E700510FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1427E9B11ED982E700510FDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1427E9B41ED982E700510FDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1427E9B61ED982E700510FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1427E9BB1ED982E700510FDD /* protein_touchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = protein_touchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1427E9BF1ED982E700510FDD /* protein_touchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protein_touchTests.swift; sourceTree = "<group>"; };
+		1427E9C11ED982E700510FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1427E9C61ED982E700510FDD /* protein_touchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = protein_touchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1427E9CA1ED982E700510FDD /* protein_touchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protein_touchUITests.swift; sourceTree = "<group>"; };
+		1427E9CC1ED982E700510FDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1427E9DA1ED983A900510FDD /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		1427E9DC1ED983E000510FDD /* protein_listViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protein_listViewController.swift; sourceTree = "<group>"; };
+		1427E9DF1ED988AF00510FDD /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1427E9A41ED982E700510FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1427E9E01ED988AF00510FDD /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1427E9B81ED982E700510FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1427E9C31ED982E700510FDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1427E99E1ED982E700510FDD = {
+			isa = PBXGroup;
+			children = (
+				1427E9A91ED982E700510FDD /* protein_touch */,
+				1427E9BE1ED982E700510FDD /* protein_touchTests */,
+				1427E9C91ED982E700510FDD /* protein_touchUITests */,
+				1427E9A81ED982E700510FDD /* Products */,
+				1427E9DE1ED988AE00510FDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1427E9A81ED982E700510FDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1427E9A71ED982E700510FDD /* protein_touch.app */,
+				1427E9BB1ED982E700510FDD /* protein_touchTests.xctest */,
+				1427E9C61ED982E700510FDD /* protein_touchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1427E9A91ED982E700510FDD /* protein_touch */ = {
+			isa = PBXGroup;
+			children = (
+				1427E9AA1ED982E700510FDD /* AppDelegate.swift */,
+				1427E9DA1ED983A900510FDD /* loginViewController.swift */,
+				1427E9DC1ED983E000510FDD /* protein_listViewController.swift */,
+				1427E9AE1ED982E700510FDD /* Main.storyboard */,
+				1427E9B11ED982E700510FDD /* Assets.xcassets */,
+				1427E9B31ED982E700510FDD /* LaunchScreen.storyboard */,
+				1427E9B61ED982E700510FDD /* Info.plist */,
+			);
+			path = protein_touch;
+			sourceTree = "<group>";
+		};
+		1427E9BE1ED982E700510FDD /* protein_touchTests */ = {
+			isa = PBXGroup;
+			children = (
+				1427E9BF1ED982E700510FDD /* protein_touchTests.swift */,
+				1427E9C11ED982E700510FDD /* Info.plist */,
+			);
+			path = protein_touchTests;
+			sourceTree = "<group>";
+		};
+		1427E9C91ED982E700510FDD /* protein_touchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1427E9CA1ED982E700510FDD /* protein_touchUITests.swift */,
+				1427E9CC1ED982E700510FDD /* Info.plist */,
+			);
+			path = protein_touchUITests;
+			sourceTree = "<group>";
+		};
+		1427E9DE1ED988AE00510FDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1427E9DF1ED988AF00510FDD /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1427E9A61ED982E700510FDD /* protein_touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1427E9CF1ED982E700510FDD /* Build configuration list for PBXNativeTarget "protein_touch" */;
+			buildPhases = (
+				1427E9A31ED982E700510FDD /* Sources */,
+				1427E9A41ED982E700510FDD /* Frameworks */,
+				1427E9A51ED982E700510FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = protein_touch;
+			productName = protein_touch;
+			productReference = 1427E9A71ED982E700510FDD /* protein_touch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1427E9BA1ED982E700510FDD /* protein_touchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1427E9D21ED982E700510FDD /* Build configuration list for PBXNativeTarget "protein_touchTests" */;
+			buildPhases = (
+				1427E9B71ED982E700510FDD /* Sources */,
+				1427E9B81ED982E700510FDD /* Frameworks */,
+				1427E9B91ED982E700510FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1427E9BD1ED982E700510FDD /* PBXTargetDependency */,
+			);
+			name = protein_touchTests;
+			productName = protein_touchTests;
+			productReference = 1427E9BB1ED982E700510FDD /* protein_touchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1427E9C51ED982E700510FDD /* protein_touchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1427E9D51ED982E700510FDD /* Build configuration list for PBXNativeTarget "protein_touchUITests" */;
+			buildPhases = (
+				1427E9C21ED982E700510FDD /* Sources */,
+				1427E9C31ED982E700510FDD /* Frameworks */,
+				1427E9C41ED982E700510FDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1427E9C81ED982E700510FDD /* PBXTargetDependency */,
+			);
+			name = protein_touchUITests;
+			productName = protein_touchUITests;
+			productReference = 1427E9C61ED982E700510FDD /* protein_touchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1427E99F1ED982E700510FDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dobos Pavel";
+				TargetAttributes = {
+					1427E9A61ED982E700510FDD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W23R263S5L;
+						ProvisioningStyle = Automatic;
+					};
+					1427E9BA1ED982E700510FDD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W23R263S5L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1427E9A61ED982E700510FDD;
+					};
+					1427E9C51ED982E700510FDD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W23R263S5L;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1427E9A61ED982E700510FDD;
+					};
+				};
+			};
+			buildConfigurationList = 1427E9A21ED982E700510FDD /* Build configuration list for PBXProject "protein_touch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1427E99E1ED982E700510FDD;
+			productRefGroup = 1427E9A81ED982E700510FDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1427E9A61ED982E700510FDD /* protein_touch */,
+				1427E9BA1ED982E700510FDD /* protein_touchTests */,
+				1427E9C51ED982E700510FDD /* protein_touchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1427E9A51ED982E700510FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1427E9B51ED982E700510FDD /* LaunchScreen.storyboard in Resources */,
+				1427E9B21ED982E700510FDD /* Assets.xcassets in Resources */,
+				1427E9B01ED982E700510FDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1427E9B91ED982E700510FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1427E9C41ED982E700510FDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1427E9A31ED982E700510FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1427E9AB1ED982E700510FDD /* AppDelegate.swift in Sources */,
+				1427E9DB1ED983A900510FDD /* loginViewController.swift in Sources */,
+				1427E9DD1ED983E000510FDD /* protein_listViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1427E9B71ED982E700510FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1427E9C01ED982E700510FDD /* protein_touchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1427E9C21ED982E700510FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1427E9CB1ED982E700510FDD /* protein_touchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1427E9BD1ED982E700510FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1427E9A61ED982E700510FDD /* protein_touch */;
+			targetProxy = 1427E9BC1ED982E700510FDD /* PBXContainerItemProxy */;
+		};
+		1427E9C81ED982E700510FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1427E9A61ED982E700510FDD /* protein_touch */;
+			targetProxy = 1427E9C71ED982E700510FDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1427E9AE1ED982E700510FDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1427E9AF1ED982E700510FDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1427E9B31ED982E700510FDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1427E9B41ED982E700510FDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1427E9CD1ED982E700510FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1427E9CE1ED982E700510FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1427E9D01ED982E700510FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W23R263S5L;
+				INFOPLIST_FILE = protein_touch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "academ-.protein-touch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1427E9D11ED982E700510FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W23R263S5L;
+				INFOPLIST_FILE = protein_touch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "academ-.protein-touch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1427E9D31ED982E700510FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W23R263S5L;
+				INFOPLIST_FILE = protein_touchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "academ-.protein-touchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/protein_touch.app/protein_touch";
+			};
+			name = Debug;
+		};
+		1427E9D41ED982E700510FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W23R263S5L;
+				INFOPLIST_FILE = protein_touchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "academ-.protein-touchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/protein_touch.app/protein_touch";
+			};
+			name = Release;
+		};
+		1427E9D61ED982E700510FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W23R263S5L;
+				INFOPLIST_FILE = protein_touchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "academ-.protein-touchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = protein_touch;
+			};
+			name = Debug;
+		};
+		1427E9D71ED982E700510FDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = W23R263S5L;
+				INFOPLIST_FILE = protein_touchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "academ-.protein-touchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = protein_touch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1427E9A21ED982E700510FDD /* Build configuration list for PBXProject "protein_touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1427E9CD1ED982E700510FDD /* Debug */,
+				1427E9CE1ED982E700510FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1427E9CF1ED982E700510FDD /* Build configuration list for PBXNativeTarget "protein_touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1427E9D01ED982E700510FDD /* Debug */,
+				1427E9D11ED982E700510FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1427E9D21ED982E700510FDD /* Build configuration list for PBXNativeTarget "protein_touchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1427E9D31ED982E700510FDD /* Debug */,
+				1427E9D41ED982E700510FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1427E9D51ED982E700510FDD /* Build configuration list for PBXNativeTarget "protein_touchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1427E9D61ED982E700510FDD /* Debug */,
+				1427E9D71ED982E700510FDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1427E99F1ED982E700510FDD /* Project object */;
+}
