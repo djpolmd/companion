@@ -10,7 +10,7 @@ This application you can't find in the apple store, only if you compile directly
 <img src="Captură de ecran din 2017.05.29 la 9.48.46 a.m..png">
 On the top level, we can see a student photo. progress level, and on middle we can see student course details.
 All this information is loading from the server db - 42, as API - GET mode,  and it's parsed by the application.
-<>
+<src img="Captură de ecran din 2017.05.29 la 9.49.25 a.m..png">
 
 
 I use public token without authorisation.
