@@ -1,9 +1,9 @@
-#Sweet Companion
+<H1>#Sweet Companion
 
-Project for Ecole 42(france).
-
+<H3>Project for Ecole 42(france). <H3>
+<H4>
 It's a part of the main projects in IOS SWIFT. 
-
+</H4>
 Description:
 
 This application you can't find in the apple store, only if you compile directly from the source.
