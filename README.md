@@ -7,7 +7,7 @@ It's a part of the main projects in IOS SWIFT.
 Description:
 
 This application you can't find in the apple store, only if you compile directly from the source.
-<img src="Captură de ecran din 2017.05.29 la 9.48.46 a.m..png">
+<img src="Captură de ecran din 2017.05.29 la 9.48.46 a.m..png"><br>
 On the top level, we can see a student photo. progress level, and on middle we can see student course details.
 All this information is loading from the server db - 42, as API - GET mode,  and it's parsed by the application.
 <br>
